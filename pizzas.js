@@ -1,0 +1,23 @@
+let pizzasJson = [
+    {id:1, name:'Calabresa', img:'img/calabresa-removebg-preview.png', description:'Calabresa, muçarela, cebola e molho de tomate.', price:39.90},
+    {id:2, name:'Califórnia', img:'img/califórnia-removebg-preview.png', description:'Bacon, presunto, muçarela, parmesão, champignon, muçarela e molho de tomate.', price:54.90},
+    {id:3, name:'Camarão', img:'img/camarão-removebg-preview.png', description:'Camarão, alcaparras, manjericão, muçarela, parmesão e molho de tomate.', price:89.90},
+    {id:4, name:'Cinco Queijos', img:'img/cinco-queijos-removebg-preview.png', description:'Parmesão, provolone, muçarela, requeijão cremoso, gorgonzola e molho de tomate.', price:63.90},
+    {id:5, name:'Frango c/Catupiry', img:'img/frango-com-catupiry-removebg-preview.png', description:'Frango desfiado, requeijão cremoso, parmesão, muçarela e molho de tomate.', price:49.90},
+    {id:6, name:'Marguerita', img:'img/marguerita-removebg-preview.png', description:'Muçarela, parmesão, manjericão, azeitonas e molho de tomate.', price:53.90},
+    {id:7, name:'Milho', img:'img/milho-removebg-preview.png', description:'Milho, muçarela e molho de tomate.', price:39.90},
+    {id:8, name:'Muçarela', img:'img/muçarela-removebg-preview.png', description:'Muçarela e molho de tomate.', price:39.90},
+    {id:9, name:'Pepperoni', img:'img/pepperoni-removebg-preview.png', description:'Pepperoni, muçarela e molho de tomate.', price:47.90},
+    {id:10, name:'Portuguesa', img:'img/portuguesa-removebg-preview.png', description:'Presunto, ervilha, milho, ovo, cebola, alho, azeitonas, muçarela e molho de tomate.', price:52.90},
+    {id:11, name:'Siciliana', img:'img/siciliana-removebg-preview.png', description:'Alho, muçarela, parmesão, bacon, calabresa ralada, azeitonas, cebola e molho de tomate.', price:58.90},
+    {id:12, name:'Veneza', img:'img/Veneza-removebg-preview.png', description:'Parmesão, muçarela, salame, tomate, azeitonas pretas, manjericão e mohlo de tomate.', price:59.90},
+    {id:13, name:'Beijinho', img:'img/beijinho-removebg-preview.png', description:'Beijinho, côco ralado, raspas de chocolate branco e creme de leite.', price:48.90},
+    {id:14, name:'Brigadeiro Suiço', img:'img/brigadeiro-suiço-removebg-preview.png', description:'Chocolate suiço, raspas de chocolate 70% e creme de leite.', price:59.90},
+    {id:15, name:'Chocolate c/Banana', img:'img/chocolate-com-banana-removebg-preview.png', description:'Chocolate ao leite, banana, canela em pó e creme de leite.', price:49.90},
+    {id:16, name:'Confete', img:'img/confete-removebg-preview.png', description:'Chocolate ao leite, raspas de chocolate 70%, M&Ms e creme de leite.', price:45.90},
+    {id:17, name:'Morango c/Chocolate', img:'img/morango-com-chocolate-removebg-preview.png', description:'Chocolate meio amargo, raspas de chocolate ao leite, morangos e creme de leite.', price:56.90},
+    {id:18, name:'Prestígio', img:'img/prestigio-removebg-preview.png', description:'Chocolate meio amargo, beijinho cremoso, côco ralado, cerejas e creme de leite.', price:48.90},
+    {id:19, name:'Coca-Cola', img:'img/coca-cola-removebg-preview.png', description:'Escolha um tamanho.', price:13.78},
+    {id:20, name:'Sucos', img:'img/suco-removebg-preview.png', description:'Sabores: Uva, Maracujá, Limão, Morango, Laranja, Abacaxi, Caju e Manga.', price:9.00},
+    {id:21, name:'Água', img:'img/agua-removebg-preview.png', description:'Com gás, sem gás ou saborizada.', price:5.00}
+];

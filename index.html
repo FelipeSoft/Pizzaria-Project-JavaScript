@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D'castro Pizzaria - Início</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/a443ad607e.js"></script>
+</head>
+<body>
+    <div class="button-scroll--top">
+        <i class="fa fa-caret-up"></i>
+    </div>
+    <!--navigation bar-->
+    <header>
+        <img src="img/d'castro-pizza--logo.jpg" alt="">
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#cardapio">Cardápio</a></li>
+                <li><a href="ajuda.html">Ajuda</a></li>
+            </ul>
+            <i id="cart" class="fa fa-shopping-cart"></i>
+            <span>
+                0
+            </span>
+        </nav>
+    </header>
+    <div id="cart-opened">
+        <i class="fa fa-times"></i>
+        <h1>Suas pizzas</h1>
+        <div class="cart-items">
+
+        </div>
+        <div class="container-cart">
+            <div class="cart--item">
+                <img src="">
+                <div class="cart--item-nome">--</div>
+                <div class="cart--item--qtarea">
+                    <button class="cart--item-qtmenos">-</button>
+                    <div class="cart--item--qt">1</div>
+                    <button class="cart--item-qtmais">+</button>
+                </div>
+            </div>
+        </div>
+        <span class="thinLine"></span>
+        <div class="containerPrices">
+            <div class="itemPrice--01">
+                <h3>Subtotal</h3>
+                <div class="priceMyPizzas--01">R$--</div>
+            </div>
+            <div class="itemPrice--02">
+                <h3>Desconto (-5%)</h3>
+                <div class="priceMyPizzas--02">R$--</div>
+            </div>
+            <div class="itemPrice--03">
+                <h2>Total</h2>
+                <div class="priceMyPizzas--03">R$--</div>
+            </div>
+            <a href="#" class="btn-finish"><button>Finalizar a compra</button></a>
+        </div>
+    </div>
+    <!--home-->
+    <section id="home">
+        <div class="container-home">
+            <h4>Olá,</h4>
+            <h1>Seja bem-vindo(a)!</h1>
+            <p>Aproveite para fazer o seu pedido clicando no botão logo abaixo:</p>
+            <a href="#cardapio" id="btn-home"><button>Vamos lá</button></a>
+        </div>
+    </section>
+    <!--cardápio-->
+    <section id="cardapio">
+        <div class="models">
+            <div class="pizza-item-01">
+                <a href="">
+                    <div class="pizza-item-01--img"><img src="" /></div>
+                    <div class="pizza-item-01--add">+</div>
+                </a>
+                <div class="pizza-item-01--price">R$ --</div>
+                <div class="pizza-item-01--name">--</div>
+                <div class="pizza-item-01--desc">--</div>
+            </div>
+            <main>
+                <h1>Nossos <span>Produtos</span></h1>
+                <div class="pizza-area"></div>
+            </main>
+        </div>
+        <div class="pizza-window-transparent">
+            <div class="pizza-window-area">
+                <div class="button-mobile">
+                    <button id="btn-mobile-cancel">Voltar</button></div>
+                <div class="pizza-window--img">
+                    <img src="" alt="">
+                </div>
+                <div class="pizza-window--content">
+                    <div class="pizza-content--name">--</div>
+                    <div class="pizza-content--desc">--</div>
+                    <h1>TAMANHO</h1>
+                    <div class="pizza-content--tamanhos">
+                        <div data-key="0" class="pizzaInfo--size">
+                            <span>(P) 4 pedaços</span>
+                        </div>
+                        <div data-key="1" class="pizzaInfo--size">
+                            <span>(M) 8 pedaços</span>
+                        </div>
+                        <div data-key="2" class="pizzaInfo--size selected">
+                            <span>(G) 12 pedaços</span>
+                        </div>
+                    </div>
+                    <h1>PREÇO</h1>
+                    <div class="container--price">
+                        <div class="pizza-content--price">--</div>
+                        <div class="pizza-content--qtd">
+                            <div class="qtd--menos">-</div>
+                            <div class="qtd--number">-</div>
+                            <div class="qtd--mais">+</div>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button id="btn-cart">Adicionar ao carrinho</button>
+                        <button id="btn-cancel">Cancelar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p><i class="fa fa-copyright"></i>2022 Space Code. Todos os direitos reservados.</p>
+        <div class="social-medias">
+            <div class="circle">
+                <a href=""><i class="fa fa-instagram"></i></a>
+            </div>
+            <div class="circle">
+                <a href=""><i class="fa fa-facebook"></i></a>
+            </div>
+            <div class="circle">
+                <a href=""><i class="fa fa-github"></i></a>
+            </div>
+            <div class="circle">
+                <a href=""><i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="pizzas.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
